@@ -5,17 +5,17 @@ An independent project for CMSC421 Intro to Artificial Intelligence at Universit
 
 The goal of this project is to implement a search/optimization program that finds a real-valued function that fits the input 2D dataset well. For this assignment, a good fit is defined as a function f(x) that has small sum of squared error:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="figs/2.png" alt="error" width="100">
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="figs/2.png" alt="error" width="130">
 
 We used JSON-expressions to represent expression trees. The first element of any expression is the operator, all elements after that are arguments to that operator; any argument can be the result of another function.
 
 For example, the function:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="figs/1.png" alt="function" width="250">
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="figs/1.png" alt="function" width="180">
 
 as a JSON-expression would be :
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="figs/3.png" alt="JSON-expression" width="250">
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="figs/3.png" alt="JSON-expression" width="280">
 
 JSON-expressions support the following binary operators:
 - "+" - addition
